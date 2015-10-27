@@ -1,0 +1,1300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75B1058F1BDF8DA100848836 /* MTObjectListFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B1058D1BDF8DA100848836 /* MTObjectListFetcher.m */; settings = {ASSET_TAGS = (); }; };
+		75B105981BDF8F2600848836 /* MTManagedObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105911BDF8F2600848836 /* MTManagedObject+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		75B105991BDF8F2600848836 /* MTManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105931BDF8F2600848836 /* MTManagedObject.m */; settings = {ASSET_TAGS = (); }; };
+		75B1059A1BDF8F2600848836 /* MTManagedItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105951BDF8F2600848836 /* MTManagedItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		75B1059B1BDF8F2600848836 /* MTManagedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105971BDF8F2600848836 /* MTManagedItem.m */; settings = {ASSET_TAGS = (); }; };
+		75B1059F1BDF8F9100848836 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B1059E1BDF8F9100848836 /* CoreData.framework */; };
+		75B105DC1BDF906900848836 /* MTItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105AC1BDF906900848836 /* MTItemDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75B105DE1BDF906900848836 /* MTItemDetailWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105B31BDF906900848836 /* MTItemDetailWireframe.m */; settings = {ASSET_TAGS = (); }; };
+		75B105DF1BDF906900848836 /* MTItemListCollectionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105B71BDF906900848836 /* MTItemListCollectionPresenter.m */; settings = {ASSET_TAGS = (); }; };
+		75B105E01BDF906900848836 /* MTItemListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105BA1BDF906900848836 /* MTItemListPresenter.m */; settings = {ASSET_TAGS = (); }; };
+		75B105E71BDF906900848836 /* MTItemListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105CF1BDF906900848836 /* MTItemListCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75B105E81BDF906900848836 /* MTItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105D21BDF906900848836 /* MTItemListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75B105E91BDF906900848836 /* MTItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105D41BDF906900848836 /* MTItemListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75B105EA1BDF906900848836 /* MTItemListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B105D91BDF906900848836 /* MTItemListWireframe.m */; settings = {ASSET_TAGS = (); }; };
+		75B106451BDF934600848836 /* MTTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B1062D1BDF934600848836 /* MTTableFooterView.m */; settings = {ASSET_TAGS = (); }; };
+		75B1065E1BDF975C00848836 /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B1065D1BDF975C00848836 /* Base.storyboard */; settings = {ASSET_TAGS = (); }; };
+		75DFEFAB1BDF5B2400939A5F /* MTVIPERTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFAA1BDF5B2400939A5F /* MTVIPERTemplateTests.m */; };
+		75DFEFB61BDF5B2400939A5F /* MTVIPERTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFB51BDF5B2400939A5F /* MTVIPERTemplateUITests.m */; };
+		75DFEFD51BDF5C2C00939A5F /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFC51BDF5C2C00939A5F /* MTAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		75DFEFD61BDF5C2C00939A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DFEFC61BDF5C2C00939A5F /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		75DFEFE21BDF5CC400939A5F /* MTAppModulesConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFDD1BDF5CC400939A5F /* MTAppModulesConnector.m */; settings = {ASSET_TAGS = (); }; };
+		75DFEFE31BDF5CC400939A5F /* MTAppSettingsConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFE01BDF5CC400939A5F /* MTAppSettingsConfigurator.m */; settings = {ASSET_TAGS = (); }; };
+		75DFEFE91BDF5D2200939A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFE61BDF5D2200939A5F /* main.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0121BDF5E9900939A5F /* MTRootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFEC1BDF5E9900939A5F /* MTRootCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0131BDF5E9900939A5F /* MTRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFEE1BDF5E9900939A5F /* MTRootTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0141BDF5E9900939A5F /* MTRootDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFF11BDF5E9900939A5F /* MTRootDataManager.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0151BDF5E9900939A5F /* MTRootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFF81BDF5E9900939A5F /* MTRootInteractor.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0161BDF5E9900939A5F /* MTRootOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFFB1BDF5E9900939A5F /* MTRootOperation.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0171BDF5E9900939A5F /* MTRootCollectionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFEFFE1BDF5E9900939A5F /* MTRootCollectionPresenter.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0181BDF5E9900939A5F /* MTRootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0011BDF5E9900939A5F /* MTRootPresenter.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0191BDF5E9900939A5F /* MTRootCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0051BDF5E9900939A5F /* MTRootCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF01A1BDF5E9900939A5F /* MTRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0071BDF5E9900939A5F /* MTRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF01B1BDF5E9900939A5F /* MTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0091BDF5E9900939A5F /* MTRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF01C1BDF5E9900939A5F /* MTRootWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF00E1BDF5E9900939A5F /* MTRootWebService.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF01D1BDF5E9900939A5F /* MTRootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0111BDF5E9900939A5F /* MTRootWireframe.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0211BDF5FF700939A5F /* MTRootWebServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0201BDF5FF700939A5F /* MTRootWebServiceParser.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0301BDF6C1200939A5F /* MTArrayBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0271BDF6C1200939A5F /* MTArrayBasedItemListCache.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0311BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF02A1BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0421BDF6E6400939A5F /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0361BDF6E6400939A5F /* MTDataMapping.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0431BDF6E6400939A5F /* MTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF03A1BDF6E6400939A5F /* MTDataStore.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0441BDF6E6400939A5F /* NSObject+MTMergeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF03E1BDF6E6400939A5F /* NSObject+MTMergeObject.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0451BDF6E6400939A5F /* NSObject+MTMergeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0401BDF6E6400939A5F /* NSObject+MTMergeObjects.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0571BDF6F7000939A5F /* MTObjectDetailConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0491BDF6F7000939A5F /* MTObjectDetailConfigurator.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0581BDF6F7000939A5F /* MTObjectDetailFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF04D1BDF6F7000939A5F /* MTObjectDetailFetcher.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0591BDF6F7000939A5F /* MTObjectOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0511BDF6F7000939A5F /* MTObjectOperator.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF05A1BDF6F7000939A5F /* MTObjectListRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0551BDF6F7000939A5F /* MTObjectListRequester.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0651BDF704F00939A5F /* MTMappedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF05F1BDF704F00939A5F /* MTMappedItem.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0661BDF704F00939A5F /* MTMappedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0611BDF704F00939A5F /* MTMappedObject.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0671BDF704F00939A5F /* MTMutableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0631BDF704F00939A5F /* MTMutableObject.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0B81BDF74B100939A5F /* NSNumber+MTRandomValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0A31BDF74B100939A5F /* NSNumber+MTRandomValue.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0D51BDF764900939A5F /* MTObjectDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0CC1BDF764900939A5F /* MTObjectDataManager.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0D61BDF764900939A5F /* MTSaveObjectsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0D21BDF764900939A5F /* MTSaveObjectsOperation.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0D71BDF764900939A5F /* MTSaveObjectOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0D41BDF764900939A5F /* MTSaveObjectOperation.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0F91BDF771700939A5F /* MTVIPERTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0E61BDF771700939A5F /* MTVIPERTemplate.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		75DFF0FA1BDF771700939A5F /* MTObjectWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0EC1BDF771700939A5F /* MTObjectWebService.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0FB1BDF771700939A5F /* MTWebServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0F01BDF771700939A5F /* MTWebServiceParser.m */; settings = {ASSET_TAGS = (); }; };
+		75DFF0FF1BDF779100939A5F /* MTWebServiceSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFF0FD1BDF779100939A5F /* MTWebServiceSerializer.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DFEFA71BDF5B2400939A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DFEF7F1BDF5B2400939A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DFEF861BDF5B2400939A5F;
+			remoteInfo = MTVIPERTemplate;
+		};
+		75DFEFB21BDF5B2400939A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DFEF7F1BDF5B2400939A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DFEF861BDF5B2400939A5F;
+			remoteInfo = MTVIPERTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75B1058C1BDF8DA100848836 /* MTObjectListFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectListFetcher.h; sourceTree = "<group>"; };
+		75B1058D1BDF8DA100848836 /* MTObjectListFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectListFetcher.m; sourceTree = "<group>"; };
+		75B1058E1BDF8DA100848836 /* MTObjectListFetcherIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectListFetcherIOInterface.h; sourceTree = "<group>"; };
+		75B105901BDF8F2600848836 /* MTManagedObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTManagedObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		75B105911BDF8F2600848836 /* MTManagedObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTManagedObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		75B105921BDF8F2600848836 /* MTManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTManagedObject.h; sourceTree = "<group>"; };
+		75B105931BDF8F2600848836 /* MTManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTManagedObject.m; sourceTree = "<group>"; };
+		75B105941BDF8F2600848836 /* MTManagedItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTManagedItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		75B105951BDF8F2600848836 /* MTManagedItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTManagedItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		75B105961BDF8F2600848836 /* MTManagedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTManagedItem.h; sourceTree = "<group>"; };
+		75B105971BDF8F2600848836 /* MTManagedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTManagedItem.m; sourceTree = "<group>"; };
+		75B1059E1BDF8F9100848836 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		75B105AA1BDF906900848836 /* MTItemDetailViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailViewConstants.h; sourceTree = "<group>"; };
+		75B105AB1BDF906900848836 /* MTItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailViewController.h; sourceTree = "<group>"; };
+		75B105AC1BDF906900848836 /* MTItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemDetailViewController.m; sourceTree = "<group>"; };
+		75B105AD1BDF906900848836 /* MTItemDetailViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailViewInterface.h; sourceTree = "<group>"; };
+		75B105B11BDF906900848836 /* MTItemDetailModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailModuleInterface.h; sourceTree = "<group>"; };
+		75B105B21BDF906900848836 /* MTItemDetailWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailWireframe.h; sourceTree = "<group>"; };
+		75B105B31BDF906900848836 /* MTItemDetailWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemDetailWireframe.m; sourceTree = "<group>"; };
+		75B105B61BDF906900848836 /* MTItemListCollectionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCollectionPresenter.h; sourceTree = "<group>"; };
+		75B105B71BDF906900848836 /* MTItemListCollectionPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListCollectionPresenter.m; sourceTree = "<group>"; };
+		75B105B81BDF906900848836 /* MTItemListCollectionPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCollectionPresenterInterface.h; sourceTree = "<group>"; };
+		75B105B91BDF906900848836 /* MTItemListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListPresenter.h; sourceTree = "<group>"; };
+		75B105BA1BDF906900848836 /* MTItemListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListPresenter.m; sourceTree = "<group>"; };
+		75B105BB1BDF906900848836 /* MTItemListPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListPresenterInterface.h; sourceTree = "<group>"; };
+		75B105CE1BDF906900848836 /* MTItemListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCollectionViewController.h; sourceTree = "<group>"; };
+		75B105CF1BDF906900848836 /* MTItemListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListCollectionViewController.m; sourceTree = "<group>"; };
+		75B105D01BDF906900848836 /* MTItemListCollectionViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCollectionViewInterface.h; sourceTree = "<group>"; };
+		75B105D11BDF906900848836 /* MTItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListTableViewController.h; sourceTree = "<group>"; };
+		75B105D21BDF906900848836 /* MTItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListTableViewController.m; sourceTree = "<group>"; };
+		75B105D31BDF906900848836 /* MTItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListViewController.h; sourceTree = "<group>"; };
+		75B105D41BDF906900848836 /* MTItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListViewController.m; sourceTree = "<group>"; };
+		75B105D51BDF906900848836 /* MTItemListViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListViewInterface.h; sourceTree = "<group>"; };
+		75B105D71BDF906900848836 /* MTItemListModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListModuleInterface.h; sourceTree = "<group>"; };
+		75B105D81BDF906900848836 /* MTItemListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListWireframe.h; sourceTree = "<group>"; };
+		75B105D91BDF906900848836 /* MTItemListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItemListWireframe.m; sourceTree = "<group>"; };
+		75B1062C1BDF934600848836 /* MTTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTableFooterView.h; sourceTree = "<group>"; };
+		75B1062D1BDF934600848836 /* MTTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableFooterView.m; sourceTree = "<group>"; };
+		75B1065B1BDF940C00848836 /* MTItemDetailPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemDetailPresenterInterface.h; sourceTree = "<group>"; };
+		75B1065D1BDF975C00848836 /* Base.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		75B1065F1BDFB05700848836 /* MTDataStoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStoreConstants.h; sourceTree = "<group>"; };
+		75DFEF871BDF5B2400939A5F /* MTVIPERTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTVIPERTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DFEFA61BDF5B2400939A5F /* MTVIPERTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTVIPERTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DFEFAA1BDF5B2400939A5F /* MTVIPERTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVIPERTemplateTests.m; sourceTree = "<group>"; };
+		75DFEFAC1BDF5B2400939A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DFEFB11BDF5B2400939A5F /* MTVIPERTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTVIPERTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DFEFB51BDF5B2400939A5F /* MTVIPERTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVIPERTemplateUITests.m; sourceTree = "<group>"; };
+		75DFEFB71BDF5B2400939A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DFEFC41BDF5C2C00939A5F /* MTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		75DFEFC51BDF5C2C00939A5F /* MTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		75DFEFC61BDF5C2C00939A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DFEFDC1BDF5CC400939A5F /* MTAppModulesConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppModulesConnector.h; sourceTree = "<group>"; };
+		75DFEFDD1BDF5CC400939A5F /* MTAppModulesConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAppModulesConnector.m; sourceTree = "<group>"; };
+		75DFEFDE1BDF5CC400939A5F /* MTAppModulesConnectorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppModulesConnectorInterface.h; sourceTree = "<group>"; };
+		75DFEFDF1BDF5CC400939A5F /* MTAppSettingsConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppSettingsConfigurator.h; sourceTree = "<group>"; };
+		75DFEFE01BDF5CC400939A5F /* MTAppSettingsConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAppSettingsConfigurator.m; sourceTree = "<group>"; };
+		75DFEFE11BDF5CC400939A5F /* MTAppSettingsConfiguratorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppSettingsConfiguratorInterface.h; sourceTree = "<group>"; };
+		75DFEFE51BDF5D2200939A5F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DFEFE61BDF5D2200939A5F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75DFEFE71BDF5D2200939A5F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		75DFEFEB1BDF5E9900939A5F /* MTRootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootCollectionViewCell.h; sourceTree = "<group>"; };
+		75DFEFEC1BDF5E9900939A5F /* MTRootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootCollectionViewCell.m; sourceTree = "<group>"; };
+		75DFEFED1BDF5E9900939A5F /* MTRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootTableViewCell.h; sourceTree = "<group>"; };
+		75DFEFEE1BDF5E9900939A5F /* MTRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootTableViewCell.m; sourceTree = "<group>"; };
+		75DFEFF01BDF5E9900939A5F /* MTRootDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootDataManager.h; sourceTree = "<group>"; };
+		75DFEFF11BDF5E9900939A5F /* MTRootDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootDataManager.m; sourceTree = "<group>"; };
+		75DFEFF21BDF5E9900939A5F /* MTRootDataManagerCompletionHandlingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootDataManagerCompletionHandlingConstants.h; sourceTree = "<group>"; };
+		75DFEFF31BDF5E9900939A5F /* MTRootDataManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootDataManagerDelegate.h; sourceTree = "<group>"; };
+		75DFEFF41BDF5E9900939A5F /* MTRootDataManagerErrorHandlingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootDataManagerErrorHandlingConstants.h; sourceTree = "<group>"; };
+		75DFEFF51BDF5E9900939A5F /* MTRootDataManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootDataManagerInterface.h; sourceTree = "<group>"; };
+		75DFEFF71BDF5E9900939A5F /* MTRootInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootInteractor.h; sourceTree = "<group>"; };
+		75DFEFF81BDF5E9900939A5F /* MTRootInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootInteractor.m; sourceTree = "<group>"; };
+		75DFEFFA1BDF5E9900939A5F /* MTRootOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootOperation.h; sourceTree = "<group>"; };
+		75DFEFFB1BDF5E9900939A5F /* MTRootOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootOperation.m; sourceTree = "<group>"; };
+		75DFEFFD1BDF5E9900939A5F /* MTRootCollectionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootCollectionPresenter.h; sourceTree = "<group>"; };
+		75DFEFFE1BDF5E9900939A5F /* MTRootCollectionPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootCollectionPresenter.m; sourceTree = "<group>"; };
+		75DFEFFF1BDF5E9900939A5F /* MTRootCollectionPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootCollectionPresenterInterface.h; sourceTree = "<group>"; };
+		75DFF0001BDF5E9900939A5F /* MTRootPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootPresenter.h; sourceTree = "<group>"; };
+		75DFF0011BDF5E9900939A5F /* MTRootPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootPresenter.m; sourceTree = "<group>"; };
+		75DFF0021BDF5E9900939A5F /* MTRootPresenterInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootPresenterInterface.h; sourceTree = "<group>"; };
+		75DFF0041BDF5E9900939A5F /* MTRootCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootCollectionViewController.h; sourceTree = "<group>"; };
+		75DFF0051BDF5E9900939A5F /* MTRootCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootCollectionViewController.m; sourceTree = "<group>"; };
+		75DFF0061BDF5E9900939A5F /* MTRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootTableViewController.h; sourceTree = "<group>"; };
+		75DFF0071BDF5E9900939A5F /* MTRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootTableViewController.m; sourceTree = "<group>"; };
+		75DFF0081BDF5E9900939A5F /* MTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootViewController.h; sourceTree = "<group>"; };
+		75DFF0091BDF5E9900939A5F /* MTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootViewController.m; sourceTree = "<group>"; };
+		75DFF00A1BDF5E9900939A5F /* MTRootViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootViewInterface.h; sourceTree = "<group>"; };
+		75DFF00C1BDF5E9900939A5F /* MTRootServiceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootServiceConstants.h; sourceTree = "<group>"; };
+		75DFF00D1BDF5E9900939A5F /* MTRootWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootWebService.h; sourceTree = "<group>"; };
+		75DFF00E1BDF5E9900939A5F /* MTRootWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootWebService.m; sourceTree = "<group>"; };
+		75DFF0101BDF5E9900939A5F /* MTRootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootWireframe.h; sourceTree = "<group>"; };
+		75DFF0111BDF5E9900939A5F /* MTRootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootWireframe.m; sourceTree = "<group>"; };
+		75DFF01F1BDF5FF700939A5F /* MTRootWebServiceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootWebServiceParser.h; sourceTree = "<group>"; };
+		75DFF0201BDF5FF700939A5F /* MTRootWebServiceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRootWebServiceParser.m; sourceTree = "<group>"; };
+		75DFF0221BDF601400939A5F /* MTRootWebServiceParserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootWebServiceParserInterface.h; sourceTree = "<group>"; };
+		75DFF0261BDF6C1200939A5F /* MTArrayBasedItemListCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCache.h; sourceTree = "<group>"; };
+		75DFF0271BDF6C1200939A5F /* MTArrayBasedItemListCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTArrayBasedItemListCache.m; sourceTree = "<group>"; };
+		75DFF0281BDF6C1200939A5F /* MTArrayBasedItemListCacheInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCacheInterface.h; sourceTree = "<group>"; };
+		75DFF0291BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFetchedResultsControllerBasedItemListCache.h; sourceTree = "<group>"; };
+		75DFF02A1BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFetchedResultsControllerBasedItemListCache.m; sourceTree = "<group>"; };
+		75DFF02B1BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCacheInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFetchedResultsControllerBasedItemListCacheInterface.h; sourceTree = "<group>"; };
+		75DFF02C1BDF6C1200939A5F /* MTItemListCacheConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCacheConstants.h; sourceTree = "<group>"; };
+		75DFF02D1BDF6C1200939A5F /* MTItemListCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCacheDelegate.h; sourceTree = "<group>"; };
+		75DFF02E1BDF6C1200939A5F /* MTItemListCacheInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItemListCacheInterface.h; sourceTree = "<group>"; };
+		75DFF0351BDF6E6400939A5F /* MTDataMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMapping.h; sourceTree = "<group>"; };
+		75DFF0361BDF6E6400939A5F /* MTDataMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataMapping.m; sourceTree = "<group>"; };
+		75DFF0371BDF6E6400939A5F /* MTDataMappingInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMappingInterface.h; sourceTree = "<group>"; };
+		75DFF0391BDF6E6400939A5F /* MTDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStore.h; sourceTree = "<group>"; };
+		75DFF03A1BDF6E6400939A5F /* MTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataStore.m; sourceTree = "<group>"; };
+		75DFF03D1BDF6E6400939A5F /* NSObject+MTMergeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTMergeObject.h"; sourceTree = "<group>"; };
+		75DFF03E1BDF6E6400939A5F /* NSObject+MTMergeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTMergeObject.m"; sourceTree = "<group>"; };
+		75DFF03F1BDF6E6400939A5F /* NSObject+MTMergeObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTMergeObjects.h"; sourceTree = "<group>"; };
+		75DFF0401BDF6E6400939A5F /* NSObject+MTMergeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTMergeObjects.m"; sourceTree = "<group>"; };
+		75DFF0481BDF6F7000939A5F /* MTObjectDetailConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDetailConfigurator.h; sourceTree = "<group>"; };
+		75DFF0491BDF6F7000939A5F /* MTObjectDetailConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectDetailConfigurator.m; sourceTree = "<group>"; };
+		75DFF04A1BDF6F7000939A5F /* MTObjectDetailConfiguratorIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDetailConfiguratorIOInterface.h; sourceTree = "<group>"; };
+		75DFF04C1BDF6F7000939A5F /* MTObjectDetailFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDetailFetcher.h; sourceTree = "<group>"; };
+		75DFF04D1BDF6F7000939A5F /* MTObjectDetailFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectDetailFetcher.m; sourceTree = "<group>"; };
+		75DFF04E1BDF6F7000939A5F /* MTObjectDetailFetcherIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDetailFetcherIOInterface.h; sourceTree = "<group>"; };
+		75DFF0501BDF6F7000939A5F /* MTObjectOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectOperator.h; sourceTree = "<group>"; };
+		75DFF0511BDF6F7000939A5F /* MTObjectOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectOperator.m; sourceTree = "<group>"; };
+		75DFF0521BDF6F7000939A5F /* MTObjectOperatorIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectOperatorIOInterface.h; sourceTree = "<group>"; };
+		75DFF0541BDF6F7000939A5F /* MTObjectListRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectListRequester.h; sourceTree = "<group>"; };
+		75DFF0551BDF6F7000939A5F /* MTObjectListRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectListRequester.m; sourceTree = "<group>"; };
+		75DFF0561BDF6F7000939A5F /* MTObjectListRequesterIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectListRequesterIOInterface.h; sourceTree = "<group>"; };
+		75DFF05E1BDF704F00939A5F /* MTMappedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMappedItem.h; sourceTree = "<group>"; };
+		75DFF05F1BDF704F00939A5F /* MTMappedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedItem.m; sourceTree = "<group>"; };
+		75DFF0601BDF704F00939A5F /* MTMappedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMappedObject.h; sourceTree = "<group>"; };
+		75DFF0611BDF704F00939A5F /* MTMappedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedObject.m; sourceTree = "<group>"; };
+		75DFF0621BDF704F00939A5F /* MTMutableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMutableObject.h; sourceTree = "<group>"; };
+		75DFF0631BDF704F00939A5F /* MTMutableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMutableObject.m; sourceTree = "<group>"; };
+		75DFF0A21BDF74B100939A5F /* NSNumber+MTRandomValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MTRandomValue.h"; sourceTree = "<group>"; };
+		75DFF0A31BDF74B100939A5F /* NSNumber+MTRandomValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MTRandomValue.m"; sourceTree = "<group>"; };
+		75DFF0CB1BDF764900939A5F /* MTObjectDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDataManager.h; sourceTree = "<group>"; };
+		75DFF0CC1BDF764900939A5F /* MTObjectDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectDataManager.m; sourceTree = "<group>"; };
+		75DFF0CE1BDF764900939A5F /* MTObjectDataManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectDataManagerInterface.h; sourceTree = "<group>"; };
+		75DFF0D01BDF764900939A5F /* MTMergeObjectsOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMergeObjectsOperationDelegate.h; sourceTree = "<group>"; };
+		75DFF0D11BDF764900939A5F /* MTSaveObjectsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSaveObjectsOperation.h; sourceTree = "<group>"; };
+		75DFF0D21BDF764900939A5F /* MTSaveObjectsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSaveObjectsOperation.m; sourceTree = "<group>"; };
+		75DFF0D31BDF764900939A5F /* MTSaveObjectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSaveObjectOperation.h; sourceTree = "<group>"; };
+		75DFF0D41BDF764900939A5F /* MTSaveObjectOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSaveObjectOperation.m; sourceTree = "<group>"; };
+		75DFF0E71BDF771700939A5F /* MTVIPERTemplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTVIPERTemplate.xcdatamodel; sourceTree = "<group>"; };
+		75DFF0EB1BDF771700939A5F /* MTObjectWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectWebService.h; sourceTree = "<group>"; };
+		75DFF0EC1BDF771700939A5F /* MTObjectWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTObjectWebService.m; sourceTree = "<group>"; };
+		75DFF0ED1BDF771700939A5F /* MTObjectWebServiceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTObjectWebServiceInterface.h; sourceTree = "<group>"; };
+		75DFF0EF1BDF771700939A5F /* MTWebServiceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebServiceParser.h; sourceTree = "<group>"; };
+		75DFF0F01BDF771700939A5F /* MTWebServiceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebServiceParser.m; sourceTree = "<group>"; };
+		75DFF0F11BDF771700939A5F /* MTWebServiceParserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebServiceParserInterface.h; sourceTree = "<group>"; };
+		75DFF0FC1BDF779100939A5F /* MTWebServiceSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebServiceSerializer.h; sourceTree = "<group>"; };
+		75DFF0FD1BDF779100939A5F /* MTWebServiceSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebServiceSerializer.m; sourceTree = "<group>"; };
+		75DFF0FE1BDF779100939A5F /* MTWebServiceSerializerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebServiceSerializerInterface.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DFEF841BDF5B2400939A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B1059F1BDF8F9100848836 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFA31BDF5B2400939A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFAE1BDF5B2400939A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B105A01BDF8F9F00848836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B1059E1BDF8F9100848836 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75B105A11BDF906900848836 /* ItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				75B105A21BDF906900848836 /* Presenter */,
+				75B105A91BDF906900848836 /* View */,
+				75B105B01BDF906900848836 /* Wireframe */,
+			);
+			path = ItemDetail;
+			sourceTree = "<group>";
+		};
+		75B105A21BDF906900848836 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				75B1065B1BDF940C00848836 /* MTItemDetailPresenterInterface.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		75B105A91BDF906900848836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75B105AA1BDF906900848836 /* MTItemDetailViewConstants.h */,
+				75B105AB1BDF906900848836 /* MTItemDetailViewController.h */,
+				75B105AC1BDF906900848836 /* MTItemDetailViewController.m */,
+				75B105AD1BDF906900848836 /* MTItemDetailViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75B105B01BDF906900848836 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				75B105B11BDF906900848836 /* MTItemDetailModuleInterface.h */,
+				75B105B21BDF906900848836 /* MTItemDetailWireframe.h */,
+				75B105B31BDF906900848836 /* MTItemDetailWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		75B105B41BDF906900848836 /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				75B105B51BDF906900848836 /* Presenter */,
+				75B105BC1BDF906900848836 /* View */,
+				75B105D61BDF906900848836 /* Wireframe */,
+			);
+			path = ItemList;
+			sourceTree = "<group>";
+		};
+		75B105B51BDF906900848836 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				75B105B61BDF906900848836 /* MTItemListCollectionPresenter.h */,
+				75B105B71BDF906900848836 /* MTItemListCollectionPresenter.m */,
+				75B105B81BDF906900848836 /* MTItemListCollectionPresenterInterface.h */,
+				75B105B91BDF906900848836 /* MTItemListPresenter.h */,
+				75B105BA1BDF906900848836 /* MTItemListPresenter.m */,
+				75B105BB1BDF906900848836 /* MTItemListPresenterInterface.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		75B105BC1BDF906900848836 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75B105CD1BDF906900848836 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75B105CD1BDF906900848836 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75B105CE1BDF906900848836 /* MTItemListCollectionViewController.h */,
+				75B105CF1BDF906900848836 /* MTItemListCollectionViewController.m */,
+				75B105D01BDF906900848836 /* MTItemListCollectionViewInterface.h */,
+				75B105D11BDF906900848836 /* MTItemListTableViewController.h */,
+				75B105D21BDF906900848836 /* MTItemListTableViewController.m */,
+				75B105D31BDF906900848836 /* MTItemListViewController.h */,
+				75B105D41BDF906900848836 /* MTItemListViewController.m */,
+				75B105D51BDF906900848836 /* MTItemListViewInterface.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		75B105D61BDF906900848836 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				75B105D71BDF906900848836 /* MTItemListModuleInterface.h */,
+				75B105D81BDF906900848836 /* MTItemListWireframe.h */,
+				75B105D91BDF906900848836 /* MTItemListWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		75B1062A1BDF934600848836 /* MTTableFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				75B1062B1BDF934600848836 /* Classes */,
+			);
+			path = MTTableFooterView;
+			sourceTree = "<group>";
+		};
+		75B1062B1BDF934600848836 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75B1062C1BDF934600848836 /* MTTableFooterView.h */,
+				75B1062D1BDF934600848836 /* MTTableFooterView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75B1065C1BDF975C00848836 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				75B1065D1BDF975C00848836 /* Base.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		75DFEF7E1BDF5B2400939A5F = {
+			isa = PBXGroup;
+			children = (
+				75DFEF891BDF5B2400939A5F /* MTVIPERTemplate */,
+				75DFEFA91BDF5B2400939A5F /* MTVIPERTemplateTests */,
+				75DFEFB41BDF5B2400939A5F /* MTVIPERTemplateUITests */,
+				75DFEF881BDF5B2400939A5F /* Products */,
+				75B105A01BDF8F9F00848836 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75DFEF881BDF5B2400939A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEF871BDF5B2400939A5F /* MTVIPERTemplate.app */,
+				75DFEFA61BDF5B2400939A5F /* MTVIPERTemplateTests.xctest */,
+				75DFEFB11BDF5B2400939A5F /* MTVIPERTemplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DFEF891BDF5B2400939A5F /* MTVIPERTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFC31BDF5C2C00939A5F /* Application */,
+				75DFEFCD1BDF5C2C00939A5F /* Modules */,
+				75DFEFCC1BDF5C2C00939A5F /* Interactors */,
+				75DFEFC91BDF5C2C00939A5F /* Data */,
+				75DFEFD31BDF5C2C00939A5F /* RootClasses */,
+				75DFEFD41BDF5C2C00939A5F /* Utilities */,
+				75DFEFCE1BDF5C2C00939A5F /* Resources */,
+			);
+			path = MTVIPERTemplate;
+			sourceTree = "<group>";
+		};
+		75DFEFA91BDF5B2400939A5F /* MTVIPERTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFAA1BDF5B2400939A5F /* MTVIPERTemplateTests.m */,
+				75DFEFAC1BDF5B2400939A5F /* Info.plist */,
+			);
+			path = MTVIPERTemplateTests;
+			sourceTree = "<group>";
+		};
+		75DFEFB41BDF5B2400939A5F /* MTVIPERTemplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFB51BDF5B2400939A5F /* MTVIPERTemplateUITests.m */,
+				75DFEFB71BDF5B2400939A5F /* Info.plist */,
+			);
+			path = MTVIPERTemplateUITests;
+			sourceTree = "<group>";
+		};
+		75DFEFC31BDF5C2C00939A5F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFC41BDF5C2C00939A5F /* MTAppDelegate.h */,
+				75DFEFC51BDF5C2C00939A5F /* MTAppDelegate.m */,
+				75DFEFDC1BDF5CC400939A5F /* MTAppModulesConnector.h */,
+				75DFEFDD1BDF5CC400939A5F /* MTAppModulesConnector.m */,
+				75DFEFDE1BDF5CC400939A5F /* MTAppModulesConnectorInterface.h */,
+				75DFEFDF1BDF5CC400939A5F /* MTAppSettingsConfigurator.h */,
+				75DFEFE01BDF5CC400939A5F /* MTAppSettingsConfigurator.m */,
+				75DFEFE11BDF5CC400939A5F /* MTAppSettingsConfiguratorInterface.h */,
+				75DFEFC61BDF5C2C00939A5F /* Assets.xcassets */,
+				75DFEFE41BDF5D2200939A5F /* SupportingFiles */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		75DFEFC91BDF5C2C00939A5F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF05B1BDF704F00939A5F /* MappedClasses */,
+				75DFF0D81BDF771700939A5F /* Model */,
+				75DFF0C91BDF764900939A5F /* Store */,
+				75DFF0E81BDF771700939A5F /* WebServices */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		75DFEFCC1BDF5C2C00939A5F /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0471BDF6F7000939A5F /* Configurators */,
+				75DFF04B1BDF6F7000939A5F /* Fetchers */,
+				75DFF04F1BDF6F7000939A5F /* Operators */,
+				75DFF0531BDF6F7000939A5F /* Requesters */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		75DFEFCD1BDF5C2C00939A5F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				75B105A11BDF906900848836 /* ItemDetail */,
+				75B105B41BDF906900848836 /* ItemList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		75DFEFCE1BDF5C2C00939A5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75B1065C1BDF975C00848836 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75DFEFD31BDF5C2C00939A5F /* RootClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFEA1BDF5E9900939A5F /* Cell */,
+				75DFEFEF1BDF5E9900939A5F /* DataManager */,
+				75DFEFF61BDF5E9900939A5F /* Interactor */,
+				75DFEFF91BDF5E9900939A5F /* Operation */,
+				75DFEFFC1BDF5E9900939A5F /* Presenter */,
+				75DFF0031BDF5E9900939A5F /* ViewController */,
+				75DFF00B1BDF5E9900939A5F /* WebService */,
+				75DFF01E1BDF5FC800939A5F /* WebServiceParser */,
+				75DFF00F1BDF5E9900939A5F /* Wireframe */,
+			);
+			path = RootClasses;
+			sourceTree = "<group>";
+		};
+		75DFEFD41BDF5C2C00939A5F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0241BDF6C1200939A5F /* External */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		75DFEFE41BDF5D2200939A5F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFE51BDF5D2200939A5F /* Info.plist */,
+				75DFEFE61BDF5D2200939A5F /* main.m */,
+				75DFEFE71BDF5D2200939A5F /* Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		75DFEFEA1BDF5E9900939A5F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFEB1BDF5E9900939A5F /* MTRootCollectionViewCell.h */,
+				75DFEFEC1BDF5E9900939A5F /* MTRootCollectionViewCell.m */,
+				75DFEFED1BDF5E9900939A5F /* MTRootTableViewCell.h */,
+				75DFEFEE1BDF5E9900939A5F /* MTRootTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		75DFEFEF1BDF5E9900939A5F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFF01BDF5E9900939A5F /* MTRootDataManager.h */,
+				75DFEFF11BDF5E9900939A5F /* MTRootDataManager.m */,
+				75DFEFF21BDF5E9900939A5F /* MTRootDataManagerCompletionHandlingConstants.h */,
+				75DFEFF31BDF5E9900939A5F /* MTRootDataManagerDelegate.h */,
+				75DFEFF41BDF5E9900939A5F /* MTRootDataManagerErrorHandlingConstants.h */,
+				75DFEFF51BDF5E9900939A5F /* MTRootDataManagerInterface.h */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		75DFEFF61BDF5E9900939A5F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFF71BDF5E9900939A5F /* MTRootInteractor.h */,
+				75DFEFF81BDF5E9900939A5F /* MTRootInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		75DFEFF91BDF5E9900939A5F /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFFA1BDF5E9900939A5F /* MTRootOperation.h */,
+				75DFEFFB1BDF5E9900939A5F /* MTRootOperation.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		75DFEFFC1BDF5E9900939A5F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				75DFEFFD1BDF5E9900939A5F /* MTRootCollectionPresenter.h */,
+				75DFEFFE1BDF5E9900939A5F /* MTRootCollectionPresenter.m */,
+				75DFEFFF1BDF5E9900939A5F /* MTRootCollectionPresenterInterface.h */,
+				75DFF0001BDF5E9900939A5F /* MTRootPresenter.h */,
+				75DFF0011BDF5E9900939A5F /* MTRootPresenter.m */,
+				75DFF0021BDF5E9900939A5F /* MTRootPresenterInterface.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		75DFF0031BDF5E9900939A5F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0041BDF5E9900939A5F /* MTRootCollectionViewController.h */,
+				75DFF0051BDF5E9900939A5F /* MTRootCollectionViewController.m */,
+				75DFF0061BDF5E9900939A5F /* MTRootTableViewController.h */,
+				75DFF0071BDF5E9900939A5F /* MTRootTableViewController.m */,
+				75DFF0081BDF5E9900939A5F /* MTRootViewController.h */,
+				75DFF0091BDF5E9900939A5F /* MTRootViewController.m */,
+				75DFF00A1BDF5E9900939A5F /* MTRootViewInterface.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		75DFF00B1BDF5E9900939A5F /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF00C1BDF5E9900939A5F /* MTRootServiceConstants.h */,
+				75DFF00D1BDF5E9900939A5F /* MTRootWebService.h */,
+				75DFF00E1BDF5E9900939A5F /* MTRootWebService.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		75DFF00F1BDF5E9900939A5F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0101BDF5E9900939A5F /* MTRootWireframe.h */,
+				75DFF0111BDF5E9900939A5F /* MTRootWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		75DFF01E1BDF5FC800939A5F /* WebServiceParser */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF01F1BDF5FF700939A5F /* MTRootWebServiceParser.h */,
+				75DFF0201BDF5FF700939A5F /* MTRootWebServiceParser.m */,
+				75DFF0221BDF601400939A5F /* MTRootWebServiceParserInterface.h */,
+			);
+			path = WebServiceParser;
+			sourceTree = "<group>";
+		};
+		75DFF0241BDF6C1200939A5F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				75B1062A1BDF934600848836 /* MTTableFooterView */,
+				75DFF0A01BDF74B100939A5F /* NSNumber-MTRandomValue */,
+				75DFF0331BDF6E6400939A5F /* MTDataLayer */,
+				75DFF0251BDF6C1200939A5F /* MTItemListCache */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		75DFF0251BDF6C1200939A5F /* MTItemListCache */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0261BDF6C1200939A5F /* MTArrayBasedItemListCache.h */,
+				75DFF0271BDF6C1200939A5F /* MTArrayBasedItemListCache.m */,
+				75DFF0281BDF6C1200939A5F /* MTArrayBasedItemListCacheInterface.h */,
+				75DFF0291BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.h */,
+				75DFF02A1BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.m */,
+				75DFF02B1BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCacheInterface.h */,
+				75DFF02C1BDF6C1200939A5F /* MTItemListCacheConstants.h */,
+				75DFF02D1BDF6C1200939A5F /* MTItemListCacheDelegate.h */,
+				75DFF02E1BDF6C1200939A5F /* MTItemListCacheInterface.h */,
+			);
+			path = MTItemListCache;
+			sourceTree = "<group>";
+		};
+		75DFF0331BDF6E6400939A5F /* MTDataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0341BDF6E6400939A5F /* DataMapping */,
+				75DFF0381BDF6E6400939A5F /* DataStore */,
+				75DFF03C1BDF6E6400939A5F /* MergeData */,
+			);
+			path = MTDataLayer;
+			sourceTree = "<group>";
+		};
+		75DFF0341BDF6E6400939A5F /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0351BDF6E6400939A5F /* MTDataMapping.h */,
+				75DFF0361BDF6E6400939A5F /* MTDataMapping.m */,
+				75DFF0371BDF6E6400939A5F /* MTDataMappingInterface.h */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		75DFF0381BDF6E6400939A5F /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0391BDF6E6400939A5F /* MTDataStore.h */,
+				75DFF03A1BDF6E6400939A5F /* MTDataStore.m */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		75DFF03C1BDF6E6400939A5F /* MergeData */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF03D1BDF6E6400939A5F /* NSObject+MTMergeObject.h */,
+				75DFF03E1BDF6E6400939A5F /* NSObject+MTMergeObject.m */,
+				75DFF03F1BDF6E6400939A5F /* NSObject+MTMergeObjects.h */,
+				75DFF0401BDF6E6400939A5F /* NSObject+MTMergeObjects.m */,
+			);
+			path = MergeData;
+			sourceTree = "<group>";
+		};
+		75DFF0471BDF6F7000939A5F /* Configurators */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0481BDF6F7000939A5F /* MTObjectDetailConfigurator.h */,
+				75DFF0491BDF6F7000939A5F /* MTObjectDetailConfigurator.m */,
+				75DFF04A1BDF6F7000939A5F /* MTObjectDetailConfiguratorIOInterface.h */,
+			);
+			path = Configurators;
+			sourceTree = "<group>";
+		};
+		75DFF04B1BDF6F7000939A5F /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				75B1058C1BDF8DA100848836 /* MTObjectListFetcher.h */,
+				75B1058D1BDF8DA100848836 /* MTObjectListFetcher.m */,
+				75B1058E1BDF8DA100848836 /* MTObjectListFetcherIOInterface.h */,
+				75DFF04C1BDF6F7000939A5F /* MTObjectDetailFetcher.h */,
+				75DFF04D1BDF6F7000939A5F /* MTObjectDetailFetcher.m */,
+				75DFF04E1BDF6F7000939A5F /* MTObjectDetailFetcherIOInterface.h */,
+			);
+			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		75DFF04F1BDF6F7000939A5F /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0501BDF6F7000939A5F /* MTObjectOperator.h */,
+				75DFF0511BDF6F7000939A5F /* MTObjectOperator.m */,
+				75DFF0521BDF6F7000939A5F /* MTObjectOperatorIOInterface.h */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		75DFF0531BDF6F7000939A5F /* Requesters */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0541BDF6F7000939A5F /* MTObjectListRequester.h */,
+				75DFF0551BDF6F7000939A5F /* MTObjectListRequester.m */,
+				75DFF0561BDF6F7000939A5F /* MTObjectListRequesterIOInterface.h */,
+			);
+			path = Requesters;
+			sourceTree = "<group>";
+		};
+		75DFF05B1BDF704F00939A5F /* MappedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF05E1BDF704F00939A5F /* MTMappedItem.h */,
+				75DFF05F1BDF704F00939A5F /* MTMappedItem.m */,
+				75DFF0601BDF704F00939A5F /* MTMappedObject.h */,
+				75DFF0611BDF704F00939A5F /* MTMappedObject.m */,
+				75DFF0621BDF704F00939A5F /* MTMutableObject.h */,
+				75DFF0631BDF704F00939A5F /* MTMutableObject.m */,
+			);
+			path = MappedClasses;
+			sourceTree = "<group>";
+		};
+		75DFF0A01BDF74B100939A5F /* NSNumber-MTRandomValue */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0A11BDF74B100939A5F /* Classes */,
+			);
+			path = "NSNumber-MTRandomValue";
+			sourceTree = "<group>";
+		};
+		75DFF0A11BDF74B100939A5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0A21BDF74B100939A5F /* NSNumber+MTRandomValue.h */,
+				75DFF0A31BDF74B100939A5F /* NSNumber+MTRandomValue.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75DFF0C91BDF764900939A5F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				75B1065F1BDFB05700848836 /* MTDataStoreConstants.h */,
+				75DFF0CA1BDF764900939A5F /* DataManagers */,
+				75DFF0CF1BDF764900939A5F /* Operations */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		75DFF0CA1BDF764900939A5F /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0CB1BDF764900939A5F /* MTObjectDataManager.h */,
+				75DFF0CC1BDF764900939A5F /* MTObjectDataManager.m */,
+				75DFF0CE1BDF764900939A5F /* MTObjectDataManagerInterface.h */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		75DFF0CF1BDF764900939A5F /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0D01BDF764900939A5F /* MTMergeObjectsOperationDelegate.h */,
+				75DFF0D11BDF764900939A5F /* MTSaveObjectsOperation.h */,
+				75DFF0D21BDF764900939A5F /* MTSaveObjectsOperation.m */,
+				75DFF0D31BDF764900939A5F /* MTSaveObjectOperation.h */,
+				75DFF0D41BDF764900939A5F /* MTSaveObjectOperation.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		75DFF0D81BDF771700939A5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0D91BDF771700939A5F /* ManagedClasses */,
+				75DFF0E61BDF771700939A5F /* MTVIPERTemplate.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75DFF0D91BDF771700939A5F /* ManagedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75B105901BDF8F2600848836 /* MTManagedObject+CoreDataProperties.h */,
+				75B105911BDF8F2600848836 /* MTManagedObject+CoreDataProperties.m */,
+				75B105921BDF8F2600848836 /* MTManagedObject.h */,
+				75B105931BDF8F2600848836 /* MTManagedObject.m */,
+				75B105941BDF8F2600848836 /* MTManagedItem+CoreDataProperties.h */,
+				75B105951BDF8F2600848836 /* MTManagedItem+CoreDataProperties.m */,
+				75B105961BDF8F2600848836 /* MTManagedItem.h */,
+				75B105971BDF8F2600848836 /* MTManagedItem.m */,
+			);
+			path = ManagedClasses;
+			sourceTree = "<group>";
+		};
+		75DFF0E81BDF771700939A5F /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0EA1BDF771700939A5F /* ItemWebService */,
+				75DFF0EE1BDF771700939A5F /* WebServiceParser */,
+				75DFF0F21BDF771700939A5F /* WebServiceSerializer */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		75DFF0EA1BDF771700939A5F /* ItemWebService */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0EB1BDF771700939A5F /* MTObjectWebService.h */,
+				75DFF0EC1BDF771700939A5F /* MTObjectWebService.m */,
+				75DFF0ED1BDF771700939A5F /* MTObjectWebServiceInterface.h */,
+			);
+			path = ItemWebService;
+			sourceTree = "<group>";
+		};
+		75DFF0EE1BDF771700939A5F /* WebServiceParser */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0EF1BDF771700939A5F /* MTWebServiceParser.h */,
+				75DFF0F01BDF771700939A5F /* MTWebServiceParser.m */,
+				75DFF0F11BDF771700939A5F /* MTWebServiceParserInterface.h */,
+			);
+			path = WebServiceParser;
+			sourceTree = "<group>";
+		};
+		75DFF0F21BDF771700939A5F /* WebServiceSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				75DFF0FC1BDF779100939A5F /* MTWebServiceSerializer.h */,
+				75DFF0FD1BDF779100939A5F /* MTWebServiceSerializer.m */,
+				75DFF0FE1BDF779100939A5F /* MTWebServiceSerializerInterface.h */,
+			);
+			path = WebServiceSerializer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DFEF861BDF5B2400939A5F /* MTVIPERTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DFEFBA1BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplate" */;
+			buildPhases = (
+				75DFEF831BDF5B2400939A5F /* Sources */,
+				75DFEF841BDF5B2400939A5F /* Frameworks */,
+				75DFEF851BDF5B2400939A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTVIPERTemplate;
+			productName = MTVIPERTemplate;
+			productReference = 75DFEF871BDF5B2400939A5F /* MTVIPERTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DFEFA51BDF5B2400939A5F /* MTVIPERTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DFEFBD1BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplateTests" */;
+			buildPhases = (
+				75DFEFA21BDF5B2400939A5F /* Sources */,
+				75DFEFA31BDF5B2400939A5F /* Frameworks */,
+				75DFEFA41BDF5B2400939A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DFEFA81BDF5B2400939A5F /* PBXTargetDependency */,
+			);
+			name = MTVIPERTemplateTests;
+			productName = MTVIPERTemplateTests;
+			productReference = 75DFEFA61BDF5B2400939A5F /* MTVIPERTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75DFEFB01BDF5B2400939A5F /* MTVIPERTemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DFEFC01BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplateUITests" */;
+			buildPhases = (
+				75DFEFAD1BDF5B2400939A5F /* Sources */,
+				75DFEFAE1BDF5B2400939A5F /* Frameworks */,
+				75DFEFAF1BDF5B2400939A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DFEFB31BDF5B2400939A5F /* PBXTargetDependency */,
+			);
+			name = MTVIPERTemplateUITests;
+			productName = MTVIPERTemplateUITests;
+			productReference = 75DFEFB11BDF5B2400939A5F /* MTVIPERTemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DFEF7F1BDF5B2400939A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "MAXIM TSVETKOV";
+				TargetAttributes = {
+					75DFEF861BDF5B2400939A5F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					75DFEFA51BDF5B2400939A5F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 75DFEF861BDF5B2400939A5F;
+					};
+					75DFEFB01BDF5B2400939A5F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 75DFEF861BDF5B2400939A5F;
+					};
+				};
+			};
+			buildConfigurationList = 75DFEF821BDF5B2400939A5F /* Build configuration list for PBXProject "MTVIPERTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DFEF7E1BDF5B2400939A5F;
+			productRefGroup = 75DFEF881BDF5B2400939A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DFEF861BDF5B2400939A5F /* MTVIPERTemplate */,
+				75DFEFA51BDF5B2400939A5F /* MTVIPERTemplateTests */,
+				75DFEFB01BDF5B2400939A5F /* MTVIPERTemplateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DFEF851BDF5B2400939A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B1065E1BDF975C00848836 /* Base.storyboard in Resources */,
+				75DFEFD61BDF5C2C00939A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFA41BDF5B2400939A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFAF1BDF5B2400939A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DFEF831BDF5B2400939A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DFF0D61BDF764900939A5F /* MTSaveObjectsOperation.m in Sources */,
+				75DFF0F91BDF771700939A5F /* MTVIPERTemplate.xcdatamodeld in Sources */,
+				75DFF0141BDF5E9900939A5F /* MTRootDataManager.m in Sources */,
+				75DFF0311BDF6C1200939A5F /* MTFetchedResultsControllerBasedItemListCache.m in Sources */,
+				75DFF01C1BDF5E9900939A5F /* MTRootWebService.m in Sources */,
+				75B105DC1BDF906900848836 /* MTItemDetailViewController.m in Sources */,
+				75DFF0181BDF5E9900939A5F /* MTRootPresenter.m in Sources */,
+				75B105DE1BDF906900848836 /* MTItemDetailWireframe.m in Sources */,
+				75B105EA1BDF906900848836 /* MTItemListWireframe.m in Sources */,
+				75DFF05A1BDF6F7000939A5F /* MTObjectListRequester.m in Sources */,
+				75DFF0FA1BDF771700939A5F /* MTObjectWebService.m in Sources */,
+				75DFEFE91BDF5D2200939A5F /* main.m in Sources */,
+				75DFF0161BDF5E9900939A5F /* MTRootOperation.m in Sources */,
+				75B106451BDF934600848836 /* MTTableFooterView.m in Sources */,
+				75B105E91BDF906900848836 /* MTItemListViewController.m in Sources */,
+				75B1059B1BDF8F2600848836 /* MTManagedItem.m in Sources */,
+				75DFF0B81BDF74B100939A5F /* NSNumber+MTRandomValue.m in Sources */,
+				75DFF0301BDF6C1200939A5F /* MTArrayBasedItemListCache.m in Sources */,
+				75DFF0171BDF5E9900939A5F /* MTRootCollectionPresenter.m in Sources */,
+				75B105E01BDF906900848836 /* MTItemListPresenter.m in Sources */,
+				75DFF0D51BDF764900939A5F /* MTObjectDataManager.m in Sources */,
+				75DFF0591BDF6F7000939A5F /* MTObjectOperator.m in Sources */,
+				75B1059A1BDF8F2600848836 /* MTManagedItem+CoreDataProperties.m in Sources */,
+				75DFF0651BDF704F00939A5F /* MTMappedItem.m in Sources */,
+				75DFF0431BDF6E6400939A5F /* MTDataStore.m in Sources */,
+				75DFF0421BDF6E6400939A5F /* MTDataMapping.m in Sources */,
+				75DFF0661BDF704F00939A5F /* MTMappedObject.m in Sources */,
+				75DFF0451BDF6E6400939A5F /* NSObject+MTMergeObjects.m in Sources */,
+				75B105E81BDF906900848836 /* MTItemListTableViewController.m in Sources */,
+				75DFEFE21BDF5CC400939A5F /* MTAppModulesConnector.m in Sources */,
+				75DFF01B1BDF5E9900939A5F /* MTRootViewController.m in Sources */,
+				75B1058F1BDF8DA100848836 /* MTObjectListFetcher.m in Sources */,
+				75DFF0211BDF5FF700939A5F /* MTRootWebServiceParser.m in Sources */,
+				75DFF01A1BDF5E9900939A5F /* MTRootTableViewController.m in Sources */,
+				75DFF0571BDF6F7000939A5F /* MTObjectDetailConfigurator.m in Sources */,
+				75DFF0441BDF6E6400939A5F /* NSObject+MTMergeObject.m in Sources */,
+				75DFF0D71BDF764900939A5F /* MTSaveObjectOperation.m in Sources */,
+				75DFF0FB1BDF771700939A5F /* MTWebServiceParser.m in Sources */,
+				75DFEFE31BDF5CC400939A5F /* MTAppSettingsConfigurator.m in Sources */,
+				75DFF0581BDF6F7000939A5F /* MTObjectDetailFetcher.m in Sources */,
+				75DFF0151BDF5E9900939A5F /* MTRootInteractor.m in Sources */,
+				75B105DF1BDF906900848836 /* MTItemListCollectionPresenter.m in Sources */,
+				75DFEFD51BDF5C2C00939A5F /* MTAppDelegate.m in Sources */,
+				75DFF0131BDF5E9900939A5F /* MTRootTableViewCell.m in Sources */,
+				75DFF0FF1BDF779100939A5F /* MTWebServiceSerializer.m in Sources */,
+				75B105991BDF8F2600848836 /* MTManagedObject.m in Sources */,
+				75DFF0671BDF704F00939A5F /* MTMutableObject.m in Sources */,
+				75DFF01D1BDF5E9900939A5F /* MTRootWireframe.m in Sources */,
+				75B105E71BDF906900848836 /* MTItemListCollectionViewController.m in Sources */,
+				75DFF0121BDF5E9900939A5F /* MTRootCollectionViewCell.m in Sources */,
+				75DFF0191BDF5E9900939A5F /* MTRootCollectionViewController.m in Sources */,
+				75B105981BDF8F2600848836 /* MTManagedObject+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFA21BDF5B2400939A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DFEFAB1BDF5B2400939A5F /* MTVIPERTemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DFEFAD1BDF5B2400939A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DFEFB61BDF5B2400939A5F /* MTVIPERTemplateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DFEFA81BDF5B2400939A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DFEF861BDF5B2400939A5F /* MTVIPERTemplate */;
+			targetProxy = 75DFEFA71BDF5B2400939A5F /* PBXContainerItemProxy */;
+		};
+		75DFEFB31BDF5B2400939A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DFEF861BDF5B2400939A5F /* MTVIPERTemplate */;
+			targetProxy = 75DFEFB21BDF5B2400939A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75DFEFB81BDF5B2400939A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75DFEFB91BDF5B2400939A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DFEFBB1BDF5B2400939A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MTVIPERTemplate/Application/SupportingFiles/Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MTVIPERTemplate/Application/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75DFEFBC1BDF5B2400939A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MTVIPERTemplate/Application/SupportingFiles/Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MTVIPERTemplate/Application/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75DFEFBE1BDF5B2400939A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTVIPERTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTVIPERTemplate.app/MTVIPERTemplate";
+			};
+			name = Debug;
+		};
+		75DFEFBF1BDF5B2400939A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTVIPERTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTVIPERTemplate.app/MTVIPERTemplate";
+			};
+			name = Release;
+		};
+		75DFEFC11BDF5B2400939A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTVIPERTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTVIPERTemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		75DFEFC21BDF5B2400939A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTVIPERTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTVIPERTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTVIPERTemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DFEF821BDF5B2400939A5F /* Build configuration list for PBXProject "MTVIPERTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DFEFB81BDF5B2400939A5F /* Debug */,
+				75DFEFB91BDF5B2400939A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DFEFBA1BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DFEFBB1BDF5B2400939A5F /* Debug */,
+				75DFEFBC1BDF5B2400939A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DFEFBD1BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DFEFBE1BDF5B2400939A5F /* Debug */,
+				75DFEFBF1BDF5B2400939A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DFEFC01BDF5B2400939A5F /* Build configuration list for PBXNativeTarget "MTVIPERTemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DFEFC11BDF5B2400939A5F /* Debug */,
+				75DFEFC21BDF5B2400939A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75DFF0E61BDF771700939A5F /* MTVIPERTemplate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75DFF0E71BDF771700939A5F /* MTVIPERTemplate.xcdatamodel */,
+			);
+			currentVersion = 75DFF0E71BDF771700939A5F /* MTVIPERTemplate.xcdatamodel */;
+			path = MTVIPERTemplate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75DFEF7F1BDF5B2400939A5F /* Project object */;
+}

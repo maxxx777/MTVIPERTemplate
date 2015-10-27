@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E739A82D7FCC34CC001D72E59913D5A0258E81E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E40D4743BDF0D9E8AEF22F90BF0D35F9D6CA3CE2" : 0,
+    "DFFAE996F9103407D4245264929536F346941CFC" : 0,
+    "2D5F753908F82B92CBFDAB48E809B188427269EC" : 0,
+    "587BDF32663B34C1817E3284AE248F23E4D95CE1" : 0,
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : 0,
+    "E739A82D7FCC34CC001D72E59913D5A0258E81E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D33A2FBC-FCC9-4BCF-815F-D0B3E94F4667",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E40D4743BDF0D9E8AEF22F90BF0D35F9D6CA3CE2" : "MTVIPERTemplate\/MTVIPERTemplate\/MTVIPERTemplate\/Utilities\/External\/NSNumber-MTRandomValue\/",
+    "DFFAE996F9103407D4245264929536F346941CFC" : "MTVIPERTemplate\/MTVIPERTemplate\/MTVIPERTemplate\/Utilities\/External\/MTDataLayer\/",
+    "2D5F753908F82B92CBFDAB48E809B188427269EC" : "MTVIPERTemplate\/MTVIPERTemplate\/MTVIPERTemplate\/Utilities\/External\/MTItemListCache\/",
+    "587BDF32663B34C1817E3284AE248F23E4D95CE1" : "MTVIPERTemplate\/MTVIPERTemplate\/MTVIPERTemplate\/Utilities\/External\/MTTableFooterView\/",
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : "..",
+    "E739A82D7FCC34CC001D72E59913D5A0258E81E8" : "MTVIPERTemplate\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MTVIPERTemplate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MTVIPERTemplate\/MTVIPERTemplate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTItemListCache",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D5F753908F82B92CBFDAB48E809B188427269EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTTableFooterView",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "587BDF32663B34C1817E3284AE248F23E4D95CE1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/alexthec0d3r\/scheduleapp-iphone-cloned.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTDataLayer",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFFAE996F9103407D4245264929536F346941CFC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/NSNumber-MTRandomValue",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E40D4743BDF0D9E8AEF22F90BF0D35F9D6CA3CE2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTVIPERTemplate",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E739A82D7FCC34CC001D72E59913D5A0258E81E8"
+    }
+  ]
+}

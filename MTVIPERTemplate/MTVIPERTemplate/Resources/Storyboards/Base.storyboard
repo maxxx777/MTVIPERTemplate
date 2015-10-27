@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--ItemListViewController-->
+        <scene sceneID="4rZ-QO-W1k">
+            <objects>
+                <viewController storyboardIdentifier="ItemListViewController" id="TEL-0Y-uNO" userLabel="ItemListViewController" customClass="MTItemListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jBr-VE-PFy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ech-Rm-Weg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pqs-0Z-McL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rh0-7z-5D1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <animations/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-lN-BVZ">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bDT-yV-EqP"/>
+                                    <barButtonItem id="IWx-H7-beG"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <animations/>
+                        <constraints>
+                            <constraint firstItem="Eg9-lN-BVZ" firstAttribute="top" secondItem="rh0-7z-5D1" secondAttribute="bottom" id="7fw-RJ-SHn"/>
+                            <constraint firstItem="Eg9-lN-BVZ" firstAttribute="trailing" secondItem="rh0-7z-5D1" secondAttribute="trailing" id="Dwm-h4-YF4"/>
+                            <constraint firstItem="Eg9-lN-BVZ" firstAttribute="bottom" secondItem="Ech-Rm-Weg" secondAttribute="top" id="P0B-1X-xkF"/>
+                            <constraint firstAttribute="trailing" secondItem="rh0-7z-5D1" secondAttribute="trailing" id="PLd-JO-5OR"/>
+                            <constraint firstItem="rh0-7z-5D1" firstAttribute="leading" secondItem="Pqs-0Z-McL" secondAttribute="leading" id="ReH-4S-A96"/>
+                            <constraint firstItem="rh0-7z-5D1" firstAttribute="top" secondItem="Pqs-0Z-McL" secondAttribute="top" id="jpH-TZ-kg7"/>
+                            <constraint firstItem="rh0-7z-5D1" firstAttribute="leading" secondItem="Eg9-lN-BVZ" secondAttribute="leading" id="mGU-p5-lqF"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Выбор города" id="XFY-aH-bof" userLabel="title"/>
+                    <connections>
+                        <outlet property="containerView" destination="rh0-7z-5D1" id="WcO-I7-by8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYl-k8-J7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3132" y="-1407"/>
+        </scene>
+        <!--Item List Table View Controller-->
+        <scene sceneID="nQy-JW-Tii">
+            <objects>
+                <tableViewController storyboardIdentifier="ItemListTableViewController" id="NJo-L7-08D" customClass="MTItemListTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelectionDuringEditing="YES" allowsMultipleSelection="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" id="RV2-7k-qg8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="91c-X9-QQO" customClass="MTTableFooterView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="NJo-L7-08D" id="2Ja-E1-6bU"/>
+                            <outlet property="delegate" destination="NJo-L7-08D" id="TET-Ss-Igz"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="tableFooterView" destination="91c-X9-QQO" id="odO-JX-nH3"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmn-FM-vzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="-1319"/>
+        </scene>
+        <!--Item Detail View Controller-->
+        <scene sceneID="chj-cQ-6rD">
+            <objects>
+                <tableViewController storyboardIdentifier="ItemDetailViewController" id="Sa7-vx-0lQ" customClass="MTItemDetailViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" id="QXM-nQ-cZL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Sa7-vx-0lQ" id="qXO-iJ-mPF"/>
+                            <outlet property="delegate" destination="Sa7-vx-0lQ" id="ff4-KT-KC2"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="Dt0-ul-5Yp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Oo-1d-Xg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="337"/>
+        </scene>
+        <!--Item List Collection View Controller-->
+        <scene sceneID="0Ec-lu-bK7">
+            <objects>
+                <collectionViewController storyboardIdentifier="ItemListCollectionViewController" id="bU7-KJ-fmz" customClass="MTItemListCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="cN8-5T-uvN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jcp-tV-VqL">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <view key="backgroundView" contentMode="scaleToFill" id="0l4-C0-gjp" customClass="MTTableFooterView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="bU7-KJ-fmz" id="zM9-iA-M68"/>
+                            <outlet property="delegate" destination="bU7-KJ-fmz" id="ABs-fT-xNj"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="tableFooterView" destination="0l4-C0-gjp" id="GGU-Z6-axA"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxn-bq-vOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

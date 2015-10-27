@@ -1,0 +1,12 @@
+[submodule "MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTItemListCache"]
+	path = MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTItemListCache
+	url = https://github.com/maxxx777/MTItemListCache
+[submodule "MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTDataLayer"]
+	path = MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTDataLayer
+	url = https://github.com/maxxx777/MTDataLayer
+[submodule "MTVIPERTemplate/MTVIPERTemplate/Utilities/External/NSNumber-MTRandomValue"]
+	path = MTVIPERTemplate/MTVIPERTemplate/Utilities/External/NSNumber-MTRandomValue
+	url = https://github.com/maxxx777/NSNumber-MTRandomValue
+[submodule "MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTTableFooterView"]
+	path = MTVIPERTemplate/MTVIPERTemplate/Utilities/External/MTTableFooterView
+	url = https://github.com/maxxx777/MTTableFooterView

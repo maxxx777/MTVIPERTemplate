@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="MTManagedItem" representedClassName="MTManagedItem">
+        <attribute name="itemId" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="MTManagedObject" representedClassName="MTManagedObject" parentEntity="MTManagedItem" syncable="YES">
+        <attribute name="objectDescription" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MTManagedItem" positionX="261" positionY="189" width="128" height="75"/>
+        <element name="MTManagedObject" positionX="261" positionY="207" width="128" height="60"/>
+    </elements>
+</model>
